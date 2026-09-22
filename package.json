@@ -1,0 +1,26 @@
+{
+  "name": "asim-whatsapp-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bot de WhatsApp con IA (Claude) para ASIM - Asociacion Internacional Mundo Solidario",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "informe": "node src/index.js --informe"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "@whiskeysockets/baileys": "^6.7.23",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.10.1",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "allowScripts": {
+    "@whiskeysockets/baileys@6.7.23": true,
+    "protobufjs@7.6.5": true
+  }
+}
