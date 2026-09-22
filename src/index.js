@@ -135,6 +135,7 @@ async function start() {
     if (qr) {
       console.log('\nEscanea este QR desde el WhatsApp del +34 641 574 303 (Dispositivos vinculados > Vincular un dispositivo):\n');
       qrcode.generate(qr, { small: true });
+      console.log('QR_DATA_START:' + qr + ':QR_DATA_END');
     }
 
     if (connection === 'close') {
